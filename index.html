@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Code Portfolio</h1>
+        <p>Write, Save, and Load HTML, CSS, and JavaScript</p>
+    </header>
+
+    <div class="editor">
+        <textarea id="htmlCode" placeholder="Write HTML here"></textarea>
+        <textarea id="cssCode" placeholder="Write CSS here"></textarea>
+        <textarea id="jsCode" placeholder="Write JavaScript here"></textarea>
+    </div>
+
+    <div class="buttons">
+        <button onclick="runCode()">Run Code</button>
+        <button onclick="saveCode()">Save Code</button>
+        <button onclick="loadCode()">Load Saved Code</button>
+    </div>
+
+    <iframe id="output" , style="background-color: burlywood;"></iframe>
+    <script src="script.js"></script>
+</body>
+</html>
