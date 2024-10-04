@@ -1,0 +1,12 @@
+function runCode() {
+  const htmlCode = document.getElementById('htmlCode').value;
+  const cssCode = "<style>" + document.getElementById('cssCode').value + "</style>";
+  const jsCode = "<script>" + document.getElementById('jsCode').value + "<\/script>";
+
+  const outputFrame = document.getElementById('outputFrame');
+  const outputDocument = outputFrame.contentDocument || outputFrame.contentWindow.document;
+
+  outputDocument.open();
+  outputDocument.write(htmlCode + cssCode + jsCode);
+  outputDocument.close();
+}

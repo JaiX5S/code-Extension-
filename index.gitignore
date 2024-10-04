@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #bcfd4c;">
+
+    <header>
+        <h1>My Code Portfolio</h1>
+        <p>Write your HTML, CSS, and JavaScript below to build your portfolio.</p>
+    </header>
+
+    <div class="editor-container">
+        <div class="editor">
+            <h3>HTML Code</h3>
+            <textarea id="htmlCode" placeholder="Write your HTML code here..."></textarea>
+        </div>
+        <div class="editor">
+            <h3>CSS Code</h3>
+            <textarea id="cssCode" placeholder="Write your CSS code here..."></textarea>
+        </div>
+        <div class="editor">
+            <h3>JavaScript Code</h3>
+            <textarea id="jsCode" placeholder="Write your JavaScript code here..."></textarea>
+        </div>
+    </div>
+    <br>
+
+    <button onclick="runCode()">Run Code</button>
+
+    <div class="output-container">
+        <h3>Output</h3>
+        <iframe id="outputFrame"></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Code Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
