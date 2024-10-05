@@ -1,5 +1,5 @@
 // Function to run the code
-
+// Update the code 
 function runCode() {
     const htmlCode = document.getElementById("htmlCode").value;
     const cssCode = document.getElementById("cssCode").value;
